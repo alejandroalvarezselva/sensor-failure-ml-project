@@ -78,8 +78,9 @@ joblib.dump(model_final, "models/sensorfail_svm_rbf_final.pkl")
 pipeline = joblib.load("models/sensorfail_svm_rbf_final.pkl")
 predicciones = pipeline.predict(nuevos_datos)
 ```
-📁 Estructura del repositorio
+## 📁 Estructura del repositorio
 
+```text
 sensor-failure-ml-project/
 ├─ docs/
 │  └─ figures/         # Gráficos y visualizaciones
@@ -87,16 +88,20 @@ sensor-failure-ml-project/
 ├─ notebooks/          # Notebook principal (EDA + modelado)
 ├─ LICENSE
 └─ README.md
+```
 
-🧩 Conclusiones
-VOC y AQ son los sensores con mayor capacidad predictiva.
+## 🧩 Conclusiones
+
+VOC y AQ son los sensores con mayor capacidad predictiva de fallo.
 
 El modelo SVM (RBF) alcanzó un F1 ≈ 0.93 y ROC AUC ≈ 0.98, demostrando alta fiabilidad.
 
 La solución permite anticipar fallos y reducir costes de mantenimiento no planificados.
 
-✍️ Autor
+## ✍️ Autor
 
 Alejandro Álvarez Selva
+
 📘 Proyecto de Mantenimiento Predictivo mediante Machine Learning
+
 🔗 LinkedIn: www.linkedin.com/in/alejandroaas1991
