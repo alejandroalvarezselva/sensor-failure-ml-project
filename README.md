@@ -90,7 +90,6 @@ El modelo final elegido fue el **SVM con kernel RBF**, por ofrecer el mejor equi
 | F1-score | **0.9308** |
 | ROC AUC | 0.9770 |
 
-![Métricas finales](docs/figures/Modelo%20final.png)
 
 El modelo logra **detectar la mayoría de los fallos** (recall alto) manteniendo pocas falsas alarmas.  
 Los resultados son consistentes con la validación cruzada, sin indicios de sobreajuste.
