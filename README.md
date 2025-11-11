@@ -105,21 +105,23 @@ joblib.dump(model_final, "models/sensorfail_svm_rbf_final.pkl")
 
 
 
-## ✍️ Autor
+## ✍️ **Autor**
 
 **Alejandro Álvarez Selva**  
 Proyecto de Mantenimiento Predictivo mediante Machine Learning
 
 
 
-## Para usarlo posteriormente
+## **Para usarlo posteriormente
+
 import joblib
 pipeline = joblib.load("models/sensorfail_svm_rbf_final.pkl")
 predicciones = pipeline.predict(nuevos_datos)
 
 
 
-##📁 Estructura del repositorio
+##📁 **Estructura del repositorio**
+
 sensor-failure-ml-project/
 ├─ docs/
 │  └─ figures/       # Visualizaciones y gráficos del proyecto
@@ -130,14 +132,14 @@ sensor-failure-ml-project/
 
 
 
-##🧩 Conclusiones
+##🧩 **Conclusiones**
 Se identificaron VOC y AQ como los sensores con mayor influencia en la aparición de fallos.
 El modelo SVM (RBF) alcanzó un F1 de 0.93 y ROC AUC de 0.977, demostrando alta capacidad predictiva.
 La solución permite anticipar fallos con fiabilidad, reduciendo paradas no planificadas y costes de mantenimiento.
 
 
 
-##✍️ Autor
+##✍️ **Autor**
 Alejandro Álvarez Selva
 Proyecto de Mantenimiento Predictivo mediante Machine Learning
 LinkedIn: www.linkedin.com/in/alejandroaas1991
