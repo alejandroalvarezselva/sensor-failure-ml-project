@@ -119,14 +119,14 @@ Una vez entrenado y almacenado el pipeline, puede reutilizarse fácilmente en se
 ```python
 import joblib
 
-# Cargar el modelo previamente guardado
+### Cargar el modelo previamente guardado
 pipeline = joblib.load("models/sensorfail_svm_rbf_final.pkl")
 
-# Realizar predicciones sobre nuevos datos
+### Realizar predicciones sobre nuevos datos
 predicciones = pipeline.predict(nuevos_datos)
 
 
-### 📁 Estructura del repositorio
+## 📁 **Estructura del repositorio**
 
 sensor-failure-ml-project/
 ├─ docs/
@@ -137,14 +137,14 @@ sensor-failure-ml-project/
 └─ README.md
 
 
-### 🧩 Conclusiones
+## 🧩 **Conclusiones**
 
 - VOC y AQ se consolidan como los sensores con mayor capacidad predictiva de fallo.
 - El modelo SVM (RBF) alcanzó un F1 ≈ 0.93 y ROC AUC ≈ 0.98, mostrando un excelente equilibrio entre recall y precisión.
 - La solución permite anticipar fallos con fiabilidad, contribuyendo a reducir paradas no planificadas y optimizando el mantenimiento predictivo.
 
 
-### ✍️ Autor
+## ✍️ **Autor**
 
 Alejandro Álvarez Selva
 Proyecto de Mantenimiento Predictivo mediante Machine Learning
